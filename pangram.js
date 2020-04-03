@@ -6,14 +6,14 @@
 export const isPangram = (letter) => {
   var number,ispan=false;
 
-  if(letter.lenght<26 || letter==''){
+  if(letter.length<26 || letter==''){
     return ispan;
   }
 
   for(var i=97; i<=122; i++){
     ispan=false;
 
-    for(var j=0; j<letter.lenght; j++){
+    for(var j=0; j<letter.length; j++){
         if(letter[j].toLowerCase().charCodeAt(0)==i){
           ispan=true;
           break;
